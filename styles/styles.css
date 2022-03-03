@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  height: 100vh;
+}
+
+body {
+  background-color: #202733;
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  color: #cee3e9;
+}
+
+h6 {
+  color: #52ffa8;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 800;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin: auto;
+  margin-top: 30vh;
+  max-width: 500px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #313a48;
+}
+
+.card-body {
+  padding: 40px;
+  padding-bottom: 60px;
+}
+
+.divide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.randomise-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #52ffa8;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 50%;
+  position: absolute;
+  top: auto;
+  left: 50%;
+  -webkit-transform: translateX(-55%) translateY(-50%);
+          transform: translateX(-55%) translateY(-50%);
+}
+
+.randomise-btn:hover {
+  background-color: #202733;
+}
+/*# sourceMappingURL=styles.css.map */

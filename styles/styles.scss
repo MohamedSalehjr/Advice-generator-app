@@ -1,0 +1,79 @@
+//Primary colors 
+$lightCyan : hsl(193, 38%, 86%);
+$neonGreen : hsl(150, 100%, 66%);
+//Neutral colors
+$grayBlue: #313a48;
+$darkGray: #202733;
+
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    height: 100vh;
+}
+
+body {
+    background-color: $darkGray;
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    color: $lightCyan;
+}
+h6{
+    color: $neonGreen;
+    font-weight: 400;
+}
+
+p{
+    font-weight: 800;
+}
+.card-title {
+    margin-bottom:20px;
+}
+.card {
+    margin: auto;
+    margin-top: 30vh;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: $grayBlue;
+
+}
+.card-body{
+    padding : 40px;
+    padding-bottom: 60px;
+}
+.divide{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.randomise-btn {
+    display: flex;
+    align-self: center;
+    background-color: $neonGreen;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 50%;
+    position: absolute;
+    top :auto;
+    left: 50%;
+    transform: translateX(-55%) translateY(-50%);
+
+    
+    // top: 43vh;
+    // left: 47rem;
+    
+    &:hover{
+        background-color: $darkGray;
+        // border: grayscale(0.5) blur(20px);
+    }
+    
+}
