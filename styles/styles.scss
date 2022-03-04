@@ -20,17 +20,20 @@ body {
     font-family: 'Manrope', sans-serif;
     color: $lightCyan;
 }
-h6{
+
+h6 {
     color: $neonGreen;
     font-weight: 400;
 }
 
-p{
+p {
     font-weight: 800;
 }
+
 .card-title {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .card {
     margin: auto;
     margin-top: 30vh;
@@ -41,11 +44,13 @@ p{
     background-color: $grayBlue;
 
 }
-.card-body{
-    padding : 40px;
+
+.card-body {
+    padding: 40px;
     padding-bottom: 60px;
 }
-.divide{
+
+.divide {
     display: flex;
     flex-direction: row;
 }
@@ -63,17 +68,12 @@ p{
     margin: 4px 2px;
     border-radius: 50%;
     position: absolute;
-    top :auto;
+    top: auto;
     left: 50%;
     transform: translateX(-55%) translateY(-50%);
 
-    
-    // top: 43vh;
-    // left: 47rem;
-    
-    &:hover{
-        background-color: $darkGray;
-        // border: grayscale(0.5) blur(20px);
+    &:hover {
+        background-color: $lightCyan;
     }
-    
+
 }
