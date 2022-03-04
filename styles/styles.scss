@@ -23,7 +23,8 @@ body {
 
 h6 {
     color: $neonGreen;
-    font-weight: 400;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 p {
@@ -36,7 +37,7 @@ p {
 
 .card {
     margin: auto;
-    margin-top: 30vh;
+    margin-top: 20vh;
     max-width: 500px;
     height: fit-content;
     width: 80%;
