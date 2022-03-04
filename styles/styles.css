@@ -31,6 +31,9 @@ p {
   margin: auto;
   margin-top: 30vh;
   max-width: 500px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 80%;
   text-align: center;
   border-radius: 10px;
@@ -74,6 +77,7 @@ p {
 }
 
 #randomise-btn:hover {
-  background-color: #cee3e9;
+  -webkit-filter: drop-shadow(0 0 0.75rem #52ffa8);
+          filter: drop-shadow(0 0 0.75rem #52ffa8);
 }
 /*# sourceMappingURL=styles.css.map */

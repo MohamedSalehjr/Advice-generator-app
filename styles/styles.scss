@@ -38,6 +38,7 @@ p {
     margin: auto;
     margin-top: 30vh;
     max-width: 500px;
+    height: fit-content;
     width: 80%;
     text-align: center;
     border-radius: 10px;
@@ -73,7 +74,8 @@ p {
     transform: translateX(-55%) translateY(-50%);
 
     &:hover {
-        background-color: $lightCyan;
+        
+        filter: drop-shadow(0 0 0.75rem $neonGreen);
     }
 
 }
