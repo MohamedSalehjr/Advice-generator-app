@@ -1,6 +1,6 @@
 $(document).ready(function () {
     const url = "https://api.adviceslip.com/advice";
-    $(".randomise-btn").on('click', function (e) {
+    $("#randomise-btn").on('click', function (e) {
 
         $.ajax({
             url: url,

@@ -52,7 +52,7 @@ p {
           flex-direction: row;
 }
 
-.randomise-btn {
+#randomise-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +73,7 @@ p {
           transform: translateX(-55%) translateY(-50%);
 }
 
-.randomise-btn:hover {
+#randomise-btn:hover {
   background-color: #cee3e9;
 }
 /*# sourceMappingURL=styles.css.map */
