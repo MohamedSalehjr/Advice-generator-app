@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-built-with-html-sass-and-jquery-GhN69oMyb]
-- Live Site URL: [https://mohamedsalehjr.github.io/Advice-generator-app/](https://your-live-site-url.com)
+- Live Site URL: [https://mohamedsalehjr.github.io/Advice-generator-app/]
 
 ## My process
 
